@@ -1,0 +1,15 @@
+---
+#Application Name
+spring:  
+  application:
+    name: EmployeeConsumer
+
+#Config Server URI     
+  cloud:
+    config:
+      uri: http://localhost:8762 
+
+#Ribbon Properties      
+ribbon:
+  eureka:
+    enabled: true
