@@ -1,4 +1,4 @@
 ---
 # HTTP (Tomcat) port
 server:
-  port: ${PORT:4444}   
+  port: ${PORT:9095}
